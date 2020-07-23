@@ -1,7 +1,7 @@
 package com.example.anujsharma.shuffler.adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,7 +64,7 @@ public class YourLibraryRecyclerViewAdapter extends RecyclerView.Adapter<Recycle
             case TYPE_PLAYLISTS:
                 yourLibraryTopContent = (YourLibraryTopContent) holder;
                 yourLibraryTopContent.tvText.setText(R.string.playlists);
-                yourLibraryTopContent.ivIcon.setBackground(context.getResources().getDrawable(R.drawable.ic_playlist_circle));
+                yourLibraryTopContent.ivIcon.setBackground(context.getResources().getDrawable(R.drawable.ic_playlist));
                 break;
             case TYPE_SONGS:
                 yourLibraryTopContent = (YourLibraryTopContent) holder;

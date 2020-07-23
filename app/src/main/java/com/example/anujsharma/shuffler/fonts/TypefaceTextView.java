@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Paint;
 import android.graphics.Typeface;
-import android.support.v4.util.LruCache;
+import androidx.collection.LruCache;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
@@ -14,7 +14,7 @@ import com.example.anujsharma.shuffler.R;
  * Created by anuj5 on 30-12-2017.
  */
 
-public class TypefaceTextView extends android.support.v7.widget.AppCompatTextView {
+public class TypefaceTextView extends androidx.appcompat.widget.AppCompatTextView {
 
     private static LruCache<String, Typeface> sTypefaceCache =
             new LruCache<>(12);

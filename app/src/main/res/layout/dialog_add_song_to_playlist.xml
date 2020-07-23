@@ -54,7 +54,7 @@
         android:textSize="@dimen/feed_bottom_text_size"
         app:typeface="@string/Font_Montserrat_Light" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPlaylistsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
