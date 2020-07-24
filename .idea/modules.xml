@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-Shuffler.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-Shuffler.iml" group="Shuffler" />
-      <module fileurl="file://$PROJECT_DIR$/Shuffler.iml" filepath="$PROJECT_DIR$/Shuffler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shuffler-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shuffler-app.iml" group="Shuffler/app" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shuffler.iml" filepath="$PROJECT_DIR$/.idea/modules/Shuffler.iml" group="Shuffler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Shuffler/app" />
     </modules>
   </component>
 </project>
